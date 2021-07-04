@@ -1,0 +1,17 @@
+{
+  "name": "freecodecamp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/Responsive_Web_Design_Projects/Build_a_Tribute_Page/index.html",
+    "build": "parcel build src/Responsive_Web_Design_Projects/Build_a_Tribute_Page/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.35.1"
+  }
+}
