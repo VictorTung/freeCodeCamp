@@ -1,1 +1,1 @@
-{"version":3,"sources":["main.scss"],"names":[],"mappings":"AAEA;EACI,OAHE","file":"main.39afc03c.css","sourceRoot":"..\\src\\Responsive_Web_Design_Projects\\Build_a_Tribute_Page","sourcesContent":["$red: red;\r\n\r\nh1 {\r\n    color: $red;\r\n}"]}
+{"version":3,"sources":["main.scss"],"names":[],"mappings":"AAEA;EACI,OAHE","file":"main.39afc03c.css","sourceRoot":"../src/Responsive_Web_Design_Projects/Build_a_Tribute_Page","sourcesContent":["$red: red;\n\nh1 {\n    color: $red;\n}"]}
