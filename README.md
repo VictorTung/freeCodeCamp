@@ -1,4 +1,4 @@
-# freeCodeCamp
+# freeCodeCamp project
 
 change the setting in json file when working a specific project:
 
