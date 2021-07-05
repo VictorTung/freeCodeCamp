@@ -1,5 +1,64 @@
-$red: red;
+body {
+    font-family: Tahoma;
+    line-height: 1.5;
+}
 
-h1 {
-    color: $red;
+main {
+    text-align: center;    
+    margin: 30px 10px;
+    padding: 50px 20px 30px;
+    background-color: rgb(243, 243, 243);
+    
+    p, figcaption, ul {
+        color: rgb(130, 130, 130);
+    }
+
+    b {
+        color: #000;
+    }
+
+    #img-div {
+        background-color: #FFF;
+        margin: auto;
+        padding: 20px;
+        width: 95%;
+    
+        #image {
+            max-width: 100%;
+            display: block;
+            margin: auto;
+        }
+
+        figcaption {
+            margin-top: 20px;
+        }
+    }
+
+    #tribute-info {
+        width: 700px;
+        margin: auto;
+        h2 {
+            text-align: center;
+            font-size: 20px;
+            margin: 50px 0;
+        }
+    
+        ul {
+            text-align: left;
+        }
+    
+        .quote {
+            margin: 50px;
+            font-style: italic;
+    
+            p {
+                text-align: left;
+            }
+        }
+    }
+
+    .ending {
+        font-weight: bold;
+        margin: 5px;
+    }
 }

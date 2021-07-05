@@ -1,5 +1,56 @@
-h1 {
-  color: red;
+body {
+  font-family: Tahoma;
+  line-height: 1.5;
+}
+
+main {
+  text-align: center;
+  margin: 30px 10px;
+  padding: 50px 20px 30px;
+  background-color: #f3f3f3;
+}
+main p, main figcaption, main ul {
+  color: #828282;
+}
+main b {
+  color: #000;
+}
+main #img-div {
+  background-color: #FFF;
+  margin: auto;
+  padding: 20px;
+  width: 95%;
+}
+main #img-div #image {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+main #img-div figcaption {
+  margin-top: 20px;
+}
+main #tribute-info {
+  width: 700px;
+  margin: auto;
+}
+main #tribute-info h2 {
+  text-align: center;
+  font-size: 20px;
+  margin: 50px 0;
+}
+main #tribute-info ul {
+  text-align: left;
+}
+main #tribute-info .quote {
+  margin: 50px;
+  font-style: italic;
+}
+main #tribute-info .quote p {
+  text-align: left;
+}
+main .ending {
+  font-weight: bold;
+  margin: 5px;
 }
 
 /*# sourceMappingURL=/main.39afc03c.css.map */
