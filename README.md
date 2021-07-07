@@ -8,4 +8,5 @@
   }
 
 - LF will be replaced by CRLF:
+
   solution: git config core.autocrlf true
