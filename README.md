@@ -7,6 +7,6 @@
     "build": "parcel build file/Pathway/to/the/project/index.html"
   }
 
-- LF will be replaced by CRLF:
+- when encounter the statement: LF will be replaced by CRLF, type the command below:
 
-  solution: git config core.autocrlf true
+  git config core.autocrlf true
