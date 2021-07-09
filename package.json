@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel src/Responsive_Web_Design_Projects/Build_a_Survey_Form/index.html",
-    "build": "parcel build src/Responsive_Web_Design_Projects/Build_a_Survey_Form/index.html"
+    "dev": "parcel src/Responsive_Web_Design_Projects/Build_a_Product_Landing_Page/index.html",
+    "build": "parcel build src/Responsive_Web_Design_Projects/Build_a_Product_Landing_Page/index.html"
   },
   "keywords": [],
   "author": "",
