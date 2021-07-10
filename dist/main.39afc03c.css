@@ -1,56 +1,146 @@
+html {
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
-  font-family: Tahoma;
-  line-height: 1.5;
+  background-color: #EEEEEE;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  background-color: #EEEEEE;
+}
+#header .img-container {
+  width: 300px;
+}
+#header .img-container img {
+  width: 100%;
+}
+#header a {
+  margin-right: 100px;
+  text-decoration: none;
+}
+#header a, #header a:visited, #header a:active {
+  color: #000;
 }
 
 main {
+  margin-top: 80px;
   text-align: center;
-  margin: 30px 10px;
-  padding: 50px 20px 30px;
-  background-color: #f3f3f3;
 }
-main p, main figcaption, main ul {
-  color: #828282;
+main form {
+  margin-bottom: 100px;
 }
-main b {
+main form p {
+  font-weight: bold;
+  font-size: 25px;
+}
+main form input {
+  width: 300px;
+  padding: 5px;
+}
+main form input[type=submit] {
+  width: 150px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #F2C20E;
+  border: none;
+}
+main form input[type=submit]:hover {
+  background-color: #FFA500;
+  transition: background-color 1000ms linear;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#feature .container {
+  margin: auto;
+  margin-bottom: 60px;
+  justify-content: left;
+  width: 1000px;
+}
+#feature .feature-img-container {
+  margin-right: 80px;
+  width: 75px;
+}
+#feature .feature-img-container .fas {
+  color: #FF8C00;
+}
+#feature .feature-content {
+  text-align: left;
+}
+#feature .feature-heading {
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 0;
+}
+#feature .feature-description {
+  font-size: 17px;
+  line-height: 1;
+}
+
+.price {
+  margin: 50px auto;
+}
+.price .price-item {
+  border: 1px solid;
+  border-radius: 5px;
+  margin-right: 30px;
+}
+.price .price-item .price-heading {
+  font-weight: bold;
+  padding: 20px 80px;
+  margin: 0;
+  background-color: #DDD;
+}
+.price .price-item .price-value {
+  font-weight: bold;
+  font-size: 32px;
+}
+.price .price-item button {
+  background-color: #F2C20E;
+  padding: 10px 15px;
+  border: none;
+  margin: 20px 0;
+}
+
+footer {
+  background-color: #DDD;
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 20px;
+}
+footer div a {
+  margin-right: 20px;
+  text-decoration: none;
+}
+footer div a, footer div a:visited, footer div a:active {
   color: #000;
 }
-main #img-div {
-  background-color: #FFF;
-  margin: auto;
-  padding: 20px;
-  width: 95%;
-}
-main #img-div #image {
-  max-width: 100%;
-  display: block;
-  margin: auto;
-}
-main #img-div figcaption {
-  margin-top: 20px;
-}
-main #tribute-info {
-  width: 700px;
-  margin: auto;
-}
-main #tribute-info h2 {
-  text-align: center;
-  font-size: 20px;
-  margin: 50px 0;
-}
-main #tribute-info ul {
-  text-align: left;
-}
-main #tribute-info .quote {
-  margin: 50px;
-  font-style: italic;
-}
-main #tribute-info .quote p {
-  text-align: left;
-}
-main .ending {
-  font-weight: bold;
-  margin: 5px;
+footer .copyright {
+  color: #444444;
+  font-size: 18px;
 }
 
 /*# sourceMappingURL=/main.39afc03c.css.map */
