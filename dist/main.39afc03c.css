@@ -38,6 +38,25 @@ body {
   color: #000;
 }
 
+@media screen and (max-width: 900px) {
+  #header {
+    height: 140px;
+    display: block;
+  }
+  #header .img-container {
+    margin: auto;
+  }
+  #header nav {
+    width: 200px;
+    margin: auto;
+  }
+  #header a {
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+  }
+}
 main {
   margin-top: 80px;
   text-align: center;
@@ -65,6 +84,11 @@ main form input[type=submit]:hover {
   transition: background-color 1000ms linear;
 }
 
+@media screen and (max-width: 900px) {
+  main {
+    margin-top: 140px;
+  }
+}
 .container {
   display: flex;
   justify-content: center;
@@ -75,7 +99,7 @@ main form input[type=submit]:hover {
   margin: auto;
   margin-bottom: 60px;
   justify-content: left;
-  width: 1000px;
+  max-width: 1000px;
 }
 #feature .feature-img-container {
   margin-right: 80px;
@@ -97,6 +121,14 @@ main form input[type=submit]:hover {
   line-height: 1;
 }
 
+@media screen and (max-width: 800px) {
+  #feature .feature-img-container {
+    display: none;
+  }
+  #feature .feature-content {
+    text-align: center;
+  }
+}
 .price {
   margin: 50px auto;
 }
@@ -122,9 +154,18 @@ main form input[type=submit]:hover {
   margin: 20px 0;
 }
 
+@media screen and (max-width: 1150px) {
+  .price .container {
+    display: block;
+  }
+  .price .container .price-item {
+    width: 380px;
+    margin: 30px auto;
+  }
+}
 footer {
   background-color: #DDD;
-  width: 1000px;
+  max-width: 1000px;
   margin: auto;
   display: flex;
   flex-direction: column;
